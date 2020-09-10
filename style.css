@@ -1,0 +1,84 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/images/dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-width: 500px;
+}
+
+header {
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.856);
+  font-weight: 800;
+  text-shadow: 2px 2px 2px #3e161ea8;
+  margin-bottom: 3rem;
+}
+/* *********************FORM********************* */
+label {
+  background-color: #df0002;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.856);
+  font-size: 1.4rem;
+}
+
+.from-to,
+.from,
+.to {
+  display: flex;
+}
+
+.to {
+  margin-left: 1.5rem;
+}
+
+.from-to {
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.buttons input {
+  padding: 0.8rem 1.5rem;
+  border: 1px solid #df0002;
+}
+
+.surprise {
+  color: #df0002;
+  background-color: rgba(255, 255, 255, 0.747);
+}
+
+.go {
+  background-color: #df0002;
+  color: white;
+  margin-left: 1.2rem;
+}
